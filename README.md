@@ -32,7 +32,7 @@ Add to your app config aliases array:
 	'aliases' => array(
 
 		...
-		'Json' => 'Mocavo\PrettyJson',
+		'PrettyJSON' => 'Mocavo\PrettyJson',
 		...
 
 	),
@@ -48,4 +48,4 @@ or
 
 You will use
 
-	return Json($dataArray);
+	return new PrettyJSON($dataArray);
