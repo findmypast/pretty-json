@@ -36,3 +36,16 @@ Add to your app config aliases array:
 		...
 
 	),
+
+
+To utilize the new pretty json output, when returning JSON, instead of using
+
+	return Response::json($dataArray);
+
+or
+
+	return $dataArray;
+
+You will use
+
+	return Json($dataArray);
