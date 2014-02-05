@@ -1,0 +1,8 @@
+{
+    "name": "mocavo/pretty-json",
+    "autoload": {
+        "psr-0" : {
+            "Mocavo\\PrettyJson" : "src"
+        }
+    }
+}
